@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Gallery | लक्ष्मी देवी इंटर कॉलेज</title>
+<meta name="description" content="लक्ष्मी देवी इंटर कॉलेज की फोटो गैलरी — विद्यालय भवन, प्रयोगशाला, स्काउट-गाइड, शैक्षिक भ्रमण एवं परीक्षा परिणाम।" />
+<link rel="icon" href="assets/images/logo.png" type="image/png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="stylesheet" href="assets/css/pages.css" />
+</head>
+<body>
+
+<div id="app-shell-root"></div>
+
+<main id="main" class="main-content">
+
+  <section class="page-banner">
+    <div class="container">
+      <div class="crumb"><a href="index.html" class="back-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
+        Home
+      </a></div>
+      <h1 class="hi-head">गैलरी</h1>
+      <p>विद्यालय की गतिविधियों एवं उपलब्धियों की झलकियाँ।</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="filter-row reveal">
+        <button class="filter-chip active" data-filter="all">सभी</button>
+        <button class="filter-chip" data-filter="campus">विद्यालय परिसर</button>
+        <button class="filter-chip" data-filter="lab">प्रयोगशाला</button>
+        <button class="filter-chip" data-filter="activities">गतिविधियाँ</button>
+        <button class="filter-chip" data-filter="trip">शैक्षिक भ्रमण</button>
+        <button class="filter-chip" data-filter="results">परिणाम</button>
+      </div>
+
+      <div class="gallery-grid reveal">
+
+        <div class="gallery-item" data-category="campus" data-lightbox="assets/images/school-gate.jpg" data-caption="विद्यालय का मुख्य द्वार">
+          <img src="assets/images/school-gate.jpg" alt="School gate" loading="lazy">
+          <div class="gallery-caption">विद्यालय द्वार</div>
+        </div>
+
+        <div class="gallery-item" data-category="campus" data-lightbox="assets/images/school-building.jpg" data-caption="विद्यालय भवन">
+          <img src="assets/images/school-building.jpg" alt="School building" loading="lazy">
+          <div class="gallery-caption">विद्यालय भवन</div>
+        </div>
+
+        <div class="gallery-item" data-category="lab" data-lightbox="assets/images/science-lab.jpg" data-caption="विज्ञान प्रयोगशाला में प्रायोगिक सत्र">
+          <img src="assets/images/science-lab.jpg" alt="Science laboratory practical" loading="lazy">
+          <div class="gallery-caption">विज्ञान प्रयोगशाला</div>
+        </div>
+
+        <div class="gallery-item" data-category="lab" data-lightbox="assets/images/lab-scout-facilities.jpg" data-caption="लैब एवं स्काउट-गाइड सुविधाएँ">
+          <img src="assets/images/lab-scout-facilities.jpg" alt="Lab and Scout Guide facilities" loading="lazy">
+          <div class="gallery-caption">लैब एवं स्काउट-गाइड</div>
+        </div>
+
+        <div class="gallery-item" data-category="activities" data-lightbox="assets/images/lab-scout-facilities.jpg" data-caption="स्काउट एवं गाइड प्रशिक्षण">
+          <img src="assets/images/lab-scout-facilities.jpg" alt="Scout and Guide training" loading="lazy">
+          <div class="gallery-caption">स्काउट एवं गाइड</div>
+        </div>
+
+        <div class="gallery-item" data-category="trip" data-lightbox="assets/images/educational-trip-tajmahal.webp" data-caption="शैक्षिक भ्रमण — ताजमहल, आगरा">
+          <img src="assets/images/educational-trip-tajmahal.webp" alt="Educational trip to Taj Mahal" loading="lazy">
+          <div class="gallery-caption">शैक्षिक भ्रमण — ताजमहल</div>
+        </div>
+
+        <div class="gallery-item" data-category="results" data-lightbox="assets/images/result-2023.jpg" data-caption="UP Board Result 2023">
+          <img src="assets/images/result-2023.jpg" alt="UP Board 2023 result poster" loading="lazy">
+          <div class="gallery-caption">UP Board Result 2023</div>
+        </div>
+
+        <div class="gallery-item" data-category="results" data-lightbox="assets/images/result-2024.jpg" data-caption="UP Board Result 2024">
+          <img src="assets/images/result-2024.jpg" alt="UP Board 2024 result poster" loading="lazy">
+          <div class="gallery-caption">UP Board Result 2024</div>
+        </div>
+
+        <div class="gallery-item" data-category="results" data-lightbox="assets/images/result-2026.jpg" data-caption="UP Board Result 2026">
+          <img src="assets/images/result-2026.jpg" alt="UP Board 2026 result poster" loading="lazy">
+          <div class="gallery-caption">UP Board Result 2026</div>
+        </div>
+
+        <div class="gallery-item" data-category="campus" data-lightbox="assets/images/logo.png" data-caption="लक्ष्मी देवी इंटर कॉलेज — आधिकारिक लोगो">
+          <img src="assets/images/logo.png" alt="LDIC official logo" loading="lazy" style="background:#fff; padding:20px;">
+          <div class="gallery-caption">विद्यालय लोगो</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div id="footer-root"></div>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" aria-label="Close">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+  <img id="lightboxImg" src="" alt="" />
+  <div class="lightbox-caption" id="lightboxCaption"></div>
+</div>
+
+<script src="assets/js/nav-data.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/footer.js"></script>
+</body>
+</html>
